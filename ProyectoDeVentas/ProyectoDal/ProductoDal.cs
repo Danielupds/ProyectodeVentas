@@ -15,5 +15,8 @@ namespace ProyectoDal
             DataTable lista = conexion.EjecutarDataTabla(consulta, "tabla");
             return lista;
         }
+
+
+        
     }
 }

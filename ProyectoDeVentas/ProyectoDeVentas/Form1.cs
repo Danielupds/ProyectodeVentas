@@ -9,7 +9,8 @@ namespace ProyectoDeVentas
 
         private void productosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            Productos form = new Productos();
+            form.ShowDialog();
         }
     }
 }
