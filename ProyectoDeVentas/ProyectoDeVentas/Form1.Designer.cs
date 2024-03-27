@@ -45,10 +45,7 @@
             ingresarToolStripMenuItem = new ToolStripMenuItem();
             registrarToolStripMenuItem = new ToolStripMenuItem();
             logoutToolStripMenuItem = new ToolStripMenuItem();
-            tabControl1 = new TabControl();
-            tabPage1 = new TabPage();
             menuStrip1.SuspendLayout();
-            tabControl1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
@@ -72,20 +69,20 @@
             // productosToolStripMenuItem
             // 
             productosToolStripMenuItem.Name = "productosToolStripMenuItem";
-            productosToolStripMenuItem.Size = new Size(180, 22);
+            productosToolStripMenuItem.Size = new Size(128, 22);
             productosToolStripMenuItem.Text = "Productos";
             productosToolStripMenuItem.Click += productosToolStripMenuItem_Click;
             // 
             // marcasToolStripMenuItem
             // 
             marcasToolStripMenuItem.Name = "marcasToolStripMenuItem";
-            marcasToolStripMenuItem.Size = new Size(180, 22);
+            marcasToolStripMenuItem.Size = new Size(128, 22);
             marcasToolStripMenuItem.Text = "Marcas";
             // 
             // afiliadosToolStripMenuItem
             // 
             afiliadosToolStripMenuItem.Name = "afiliadosToolStripMenuItem";
-            afiliadosToolStripMenuItem.Size = new Size(180, 22);
+            afiliadosToolStripMenuItem.Size = new Size(128, 22);
             afiliadosToolStripMenuItem.Text = "Afiliados";
             // 
             // empleadosToolStripMenuItem
@@ -99,13 +96,13 @@
             // listaToolStripMenuItem
             // 
             listaToolStripMenuItem.Name = "listaToolStripMenuItem";
-            listaToolStripMenuItem.Size = new Size(180, 22);
+            listaToolStripMenuItem.Size = new Size(115, 22);
             listaToolStripMenuItem.Text = "Lista";
             // 
             // sueldosToolStripMenuItem
             // 
             sueldosToolStripMenuItem.Name = "sueldosToolStripMenuItem";
-            sueldosToolStripMenuItem.Size = new Size(180, 22);
+            sueldosToolStripMenuItem.Size = new Size(115, 22);
             sueldosToolStripMenuItem.Text = "Sueldos";
             // 
             // ventasToolStripMenuItem
@@ -119,25 +116,25 @@
             // diariasToolStripMenuItem
             // 
             diariasToolStripMenuItem.Name = "diariasToolStripMenuItem";
-            diariasToolStripMenuItem.Size = new Size(180, 22);
+            diariasToolStripMenuItem.Size = new Size(130, 22);
             diariasToolStripMenuItem.Text = "Diarias";
             // 
             // semanalesToolStripMenuItem
             // 
             semanalesToolStripMenuItem.Name = "semanalesToolStripMenuItem";
-            semanalesToolStripMenuItem.Size = new Size(180, 22);
+            semanalesToolStripMenuItem.Size = new Size(130, 22);
             semanalesToolStripMenuItem.Text = "Semanales";
             // 
             // mensualesToolStripMenuItem
             // 
             mensualesToolStripMenuItem.Name = "mensualesToolStripMenuItem";
-            mensualesToolStripMenuItem.Size = new Size(180, 22);
+            mensualesToolStripMenuItem.Size = new Size(130, 22);
             mensualesToolStripMenuItem.Text = "Mensuales";
             // 
             // anualesToolStripMenuItem
             // 
             anualesToolStripMenuItem.Name = "anualesToolStripMenuItem";
-            anualesToolStripMenuItem.Size = new Size(180, 22);
+            anualesToolStripMenuItem.Size = new Size(130, 22);
             anualesToolStripMenuItem.Text = "Anuales";
             // 
             // loginToolStripMenuItem
@@ -151,40 +148,20 @@
             // ingresarToolStripMenuItem
             // 
             ingresarToolStripMenuItem.Name = "ingresarToolStripMenuItem";
-            ingresarToolStripMenuItem.Size = new Size(180, 22);
+            ingresarToolStripMenuItem.Size = new Size(120, 22);
             ingresarToolStripMenuItem.Text = "Ingresar";
             // 
             // registrarToolStripMenuItem
             // 
             registrarToolStripMenuItem.Name = "registrarToolStripMenuItem";
-            registrarToolStripMenuItem.Size = new Size(180, 22);
+            registrarToolStripMenuItem.Size = new Size(120, 22);
             registrarToolStripMenuItem.Text = "Registrar";
             // 
             // logoutToolStripMenuItem
             // 
             logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
-            logoutToolStripMenuItem.Size = new Size(180, 22);
+            logoutToolStripMenuItem.Size = new Size(120, 22);
             logoutToolStripMenuItem.Text = "Logout";
-            // 
-            // tabControl1
-            // 
-            tabControl1.Controls.Add(tabPage1);
-            tabControl1.Location = new Point(43, 45);
-            tabControl1.Name = "tabControl1";
-            tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(231, 311);
-            tabControl1.TabIndex = 1;
-            tabControl1.Visible = false;
-            // 
-            // tabPage1
-            // 
-            tabPage1.Location = new Point(4, 24);
-            tabPage1.Name = "tabPage1";
-            tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(223, 283);
-            tabPage1.TabIndex = 0;
-            tabPage1.Text = "Productos";
-            tabPage1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -192,13 +169,11 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.png_transparent_new_york_city_skyline_illustration_city_night_building_photography_condominium_thumbnail;
             ClientSize = new Size(627, 450);
-            Controls.Add(tabControl1);
             Controls.Add(menuStrip1);
             Name = "Form1";
             Text = "Pantalla Gerente";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
-            tabControl1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -222,7 +197,5 @@
         private ToolStripMenuItem ingresarToolStripMenuItem;
         private ToolStripMenuItem registrarToolStripMenuItem;
         private ToolStripMenuItem logoutToolStripMenuItem;
-        private TabControl tabControl1;
-        private TabPage tabPage1;
     }
 }

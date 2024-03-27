@@ -9,7 +9,7 @@ namespace ProyectoDeVentas
 
         private void productosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            tabControl1.SelectTab(tabPage1).s
+            
         }
     }
 }
